@@ -1,10 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import  Router from './Router';
+
 
 const App = () => {
   return (
     <div className="container my-5">
-      <h2>Welcome</h2>
-    </div>
+              <Link to="/notes">nudes</Link>
+
+        <Router/>
+        
+      </div>
   );
 };
 

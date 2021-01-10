@@ -1,6 +1,8 @@
 import React from 'react';
 
 const NotesPage = () => (
-    <h2>Notes page</h2>
+    <div>
+        <h2>Notes</h2>
+    </div>
 );
 export default NotesPage;
