@@ -1,16 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import  Router from './Router';
+import Header from './components/header.component';
+// import AuthPage from './pages/authpage.cpmponent';
+import RouterAction from './Router';
 
 
 const App = () => {
   return (
-    <div className="container my-5">
-              <Link to="/notes">nudes</Link>
-
-        <Router/>
-        
+    <>
+    <Header />
+      <div className="container my-5">
+      <RouterAction />
       </div>
+    </>
   );
 };
 

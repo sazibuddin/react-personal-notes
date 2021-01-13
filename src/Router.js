@@ -4,7 +4,7 @@ import AuthPage from './pages/authpage.cpmponent';
 import EditNotesPage from './pages/editnotespage.component';
 import NotesPage from './pages/notespage.component';
 
-export default function router() {
+export default function RouterAction() {
     return (
         <div>
             
